@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EventTrigger/eventtrigger_lecture.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EventTrigger/eventtrigger_lecture.sol": {
+			"keccak256": "0xe3bfbbb31b6c378c63ab17c53c65aa2b55bc6dab719932f5ceaaf7f3d9ad7b62",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://68bae56853ef07e744fb9c79ebfaded701983662dffdf7c0db4f895bb4bc1947",
+				"dweb:/ipfs/QmRRi51McVAzrk7wgHvVjPa7Cyvn7pNWzdB4PP8pkjFpej"
+			]
+		}
+	},
+	"version": 1
+}

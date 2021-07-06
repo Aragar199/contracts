@@ -19,6 +19,12 @@
 						"internalType": "uint256",
 						"name": "_step",
 						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_itemAddress",
+						"type": "address"
 					}
 				],
 				"name": "SupplyChainStep",
@@ -43,6 +49,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -52,6 +71,11 @@
 				],
 				"name": "items",
 				"outputs": [
+					{
+						"internalType": "contract Item",
+						"name": "_item",
+						"type": "address"
+					},
 					{
 						"internalType": "string",
 						"name": "_identifier",
@@ -126,11 +150,11 @@
 	},
 	"sources": {
 		"EventTrigger/eventtrigger_lecture.sol": {
-			"keccak256": "0xa85471cf5cc3d444d001cad062829fd3265b5b281b87d11c991966f74892bec0",
+			"keccak256": "0xe3bfbbb31b6c378c63ab17c53c65aa2b55bc6dab719932f5ceaaf7f3d9ad7b62",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://018e00b24f4b1833ad3e1596b1d4ccd59dcc5a55b64065b2233953f4d088a740",
-				"dweb:/ipfs/QmZrh4EG7K1XbqedWzDAcLgyx3yX1DEC1tLRgPCWMCkr8H"
+				"bzz-raw://68bae56853ef07e744fb9c79ebfaded701983662dffdf7c0db4f895bb4bc1947",
+				"dweb:/ipfs/QmRRi51McVAzrk7wgHvVjPa7Cyvn7pNWzdB4PP8pkjFpej"
 			]
 		}
 	},
